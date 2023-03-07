@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
-from logging import getLogger, basicConfig, DEBUG, WARNING, ERROR, INFO, Formatter, StreamHandler
-from sys import stderr,stdout, version_info, exit
+from logging import getLogger, basicConfig, DEBUG, WARNING
+from sys import version_info, exit
 
 from asyncrat_cfg_parser import AsyncRATConfigParser
 

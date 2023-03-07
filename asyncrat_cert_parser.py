@@ -1,7 +1,7 @@
 from cryptography.x509 import load_pem_x509_certificate
 from cryptography.hazmat.primitives import serialization
 from cryptography.x509.extensions import SubjectKeyIdentifier, BasicConstraints
-from logging import getLogger, basicConfig, DEBUG, WARNING
+from logging import getLogger
 
 logger = getLogger('asyncratparser')
 

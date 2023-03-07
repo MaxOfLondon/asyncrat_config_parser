@@ -1,10 +1,7 @@
 from base64 import b64decode, b64encode
 from json import dumps
-from logging import getLogger, basicConfig, DEBUG, WARNING, Formatter
-from os import unlink
+from logging import getLogger, Formatter
 from re import search, findall, DOTALL
-from tempfile import NamedTemporaryFile
-from textwrap import dedent
 from typing import Tuple, List, Dict, Match
 
 from asyncrat_aes_decryptor import AsyncRATParserAESDecryptor

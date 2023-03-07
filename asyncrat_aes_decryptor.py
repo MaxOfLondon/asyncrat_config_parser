@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives.ciphers.modes import CBC
 from cryptography.hazmat.primitives.padding import PKCS7
 from cryptography.hazmat.primitives.hashes import SHA1
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from logging import getLogger, basicConfig, DEBUG, WARNING
+from logging import getLogger
 
 logger = getLogger('asyncratparser')
 
