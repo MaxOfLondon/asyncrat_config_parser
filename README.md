@@ -8,7 +8,7 @@ Credit for the approach and majority of code goes to jeFF0Falltrades who publish
 
 ## Installation
 ```bash
-$ git clone https://github.com/MaxOfLondon/asyncrat_cnf_parser.git
+$ git clone https://github.com/MaxOfLondon/asyncrat_config_parser.git
 $ cd asyncrat_cnf_parser
 $ python -m pip install -r requirements.txt
 ```
