@@ -9,7 +9,7 @@ Credit for the approach and majority of code goes to jeFF0Falltrades who publish
 ## Installation
 ```bash
 $ git clone https://github.com/MaxOfLondon/asyncrat_config_parser.git
-$ cd asyncrat_cnf_parser
+$ cd asyncrat_config_parser
 $ python -m pip install -r requirements.txt
 ```
 This repository includes sample of client malware in password protected 7z format.
