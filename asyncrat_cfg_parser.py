@@ -1,6 +1,6 @@
 from base64 import b64decode, b64encode
 from json import dumps
-from logging import getLogger, Formatter
+from logging import getLogger
 from re import search, findall, DOTALL
 from typing import Tuple, List, Dict, Match
 
@@ -8,7 +8,6 @@ from asyncrat_aes_decryptor import AsyncRATParserAESDecryptor
 from asyncrat_cert_parser import ASyncRATCertParser
 
 logger = getLogger('asyncratparser')
-formatter = Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 class AsyncRATConfigParser:
     
